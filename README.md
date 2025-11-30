@@ -46,37 +46,6 @@ MODERN USER INTERFACE
 
     Intuitive Navigation between pages
 
-========================================================================
-PROJECT STRUCTURE
-========================================================================
-
-GEN AI project/
-│
-├── README.md
-│
-├── my-react-app/ # Frontend (React + Vite)
-│ ├── src/
-│ │ ├── LoginPage.jsx
-│ │ ├── SignUp.jsx
-│ │ ├── HotelReview.jsx
-│ │ └── main.jsx
-│ ├── package.json
-│ └── ...
-│
-└── ml model/ # Backend (FastAPI + TensorFlow + SQLite)
-├── predict_review.py # API server
-├── database.py # SQLAlchemy models & DB setup
-├── model.py # ML training script
-├── saved_model/ # Saved TensorFlow model + tokenizer
-│ ├── hotel_review_model.h5
-│ ├── tokenizer.pkl
-│ └── max_seq_length.pkl
-├── users.db # SQLite database (auto-generated)
-└── requirements.txt # Backend Python dependencies
-
-========================================================================
-INSTALLATION & SETUP
-========================================================================
 
 BACKEND SETUP (FASTAPI + TENSORFLOW)
 
