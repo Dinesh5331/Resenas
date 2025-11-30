@@ -3,7 +3,7 @@ HOTEL REVIEW SENTIMENT ANALYSIS
 A full-stack AI-powered web application that analyzes hotel reviews to determine sentiment (Positive/Negative) using machine learning.
 
 
-FEATURES
+**FEATURES**
 
 
 USER AUTHENTICATION
